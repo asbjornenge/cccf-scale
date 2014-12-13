@@ -1,6 +1,6 @@
 # cccf-scale
 
-This module can scale up and down a [cccf](https://github.com/asbjornenge/common-container-configuration-format) config with a scale property.
+This module can scale up and down a [cccf](https://github.com/asbjornenge/cccf) config with a scale property.
 
 ## Install
 
