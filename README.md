@@ -45,6 +45,10 @@ This module can scale up and down a [cccf](https://github.com/asbjornenge/cccf) 
 
 ## Changelog
 
+### 2.0.0
+
+* Using cccf v3.0.0
+
 ### 1.0.0
 
 * Initial release :tada:

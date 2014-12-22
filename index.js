@@ -28,13 +28,9 @@ var scaleDown = function(config) {
 
 module.exports = {
 	up : function(config) {
-		if (!(config instanceof Array)) config = [config]
-		if (cccf.validate(config)) return cccf.validate(config)
-		return scaleUp(config)
+		return scaleUp(cccf.validate((config instanceof Array) ? config : [config]))
 	},
 	down : function(config) {
-		if (!(config instanceof Array)) config = [config]
-		if (cccf.validate(config)) return cccf.validate(config)
-		return scaleDown(config)
+		return scaleDown(cccf.validate((config instanceof Array) ? config : [config]))
 	}
 }

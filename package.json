@@ -1,6 +1,6 @@
 {
   "name": "cccf-scale",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Scale up and down a cccf config",
   "main": "index.js",
   "directories": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/asbjornenge/cccf-scale",
   "dependencies": {
-    "cccf": "^2.1.0",
+    "cccf": "^3.0.0",
     "clone": "^0.2.0"
   }
 }
