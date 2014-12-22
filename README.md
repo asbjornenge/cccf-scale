@@ -1,5 +1,7 @@
 # cccf-scale
 
+[![NPM](https://nodei.co/npm/cccf-scale.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/cccf-scale/)
+
 This module can scale up and down a [cccf](https://github.com/asbjornenge/cccf) config with a scale property.
 
 ## Install
